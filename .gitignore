@@ -1,0 +1,8 @@
+# removing any binary or object files
+*.exe
+*.o
+
+# removing vscode generated extension files
+*.cph/
+*.vscode/
+

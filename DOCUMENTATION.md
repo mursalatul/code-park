@@ -1,6 +1,8 @@
 # Code Park Documentation
-This document encompasses all the current subjects within Code Park.
+This document encompasses all the current subjects within Code Park.        
 
 ## Folders
+- [hello_diu](/hello_diu)
 
-## Files (sorted based on file structure)
+## Files
+- [hello_diu.c](/hello_diu/hello_diu.c)
