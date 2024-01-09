@@ -4,6 +4,7 @@ Welcome to Code Park! 🌳 This repository is a collection of various Data Struc
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Content & Documentation](DOCUMENTATION.md)
 - [Structure](#structure)
 - [Contributing](#contributing)
 - [License](#license)
