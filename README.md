@@ -23,7 +23,7 @@ Contributions are highly encouraged! If you'd like to add a new algorithm, impro
 3. Make your changes and commit with descriptive messages.
 4. Push your branch to your fork and submit a pull request.
 
-For more details, check the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+For more details, check the [CONTRIBUTE.md](CONTRIBUTE.md) file.
 
 ## License
 This repository is licensed under the [MIT License](LICENSE).
