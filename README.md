@@ -11,7 +11,7 @@ Feel free to explore the repository and use the code for educational purposes, p
 The repository is organized into folders based on different topics. Each folder contains well-commented code and explanations to help you understand the concepts. The structure is designed to be intuitive and easy to navigate.
 
 ## Documentation 📖🗒️
-Check our [DOCUMENTATION.md](DOCEMENTATION.md) to see what we have in the collection.
+Check our [DOCUMENTATION.md](DOCUMENTATION.md) to see what we have in the collection.
 
 ## Contributing 0️⃣1️⃣
 Contributions are highly encouraged! If you'd like to add a new algorithm or data structure, improve existing code, or contribute in any way, please follow these steps in 
