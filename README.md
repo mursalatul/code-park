@@ -18,16 +18,14 @@ Feel free to explore the repository and use the code for educational purposes, p
 The repository is organized into folders based on different topics. Each folder contains well-commented code and explanations to help you understand the concepts. The structure is designed to be intuitive and easy to navigate.
 
 ## Contributing
-Contributions are highly encouraged! If you'd like to add a new algorithm, improve existing code, or contribute in any way, please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your changes and commit with descriptive messages.
-4. Push your branch to your fork and submit a pull request.
-
-For more details, check the [CONTRIBUTE.md](CONTRIBUTE.md) file.
+Contributions are highly encouraged! If you'd like to add a new algorithm or data structure, improve existing code, or contribute in any way, please follow these steps in 
+- [CONTRIBUTE.md](CONTRIBUTE.md).
 
 ## License
 This repository is licensed under the [MIT License](LICENSE).
-<b>Feel free to use the code for educational and personal projects. If you find it helpful, consider giving this repository a star.</b>⭐
+Feel free to use the code for educational and personal projects.
+
+## So 🤔!
+<b>If you find it helpful, consider giving this repository a star.</b>⭐
 
 Happy coding! 🚀
