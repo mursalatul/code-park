@@ -1,6 +1,6 @@
 # Contributing to Code Park
 
-Thank you for considering contributing to Code Park! 🌳 Before you get started, please take a moment to review the guidelines below to ensure a smooth and collaborative experience.
+Become part of our Code Park family by contributing. Your support not only adds you to our community but also fuels the spread of knowledge! 🌳 Before you get started, please take a moment to review the guidelines below to ensure a smooth and collaborative experience.
 
 ## Table of Contents
 - [General Guidelines](#general-guidelines)
@@ -70,22 +70,28 @@ We believe that a coder is an artist, and we cannot teach an artist how to be cr
 
 Follow these steps to submit your contribution:
 
-1. **Fork the Repository:** Click the "Fork" button on the Code Park repository.
+1. **[Fork the Repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository):** Click the "Fork" button on the Code Park repository.
 2. **Create a Branch:** Create a new branch for your changes.
 3. **Make Changes:** Add your code following the guidelines mentioned above.
 4. **Commit Changes:** Commit your changes with descriptive commit messages.
 5. **Push Branch:** Push your branch to your fork of the repository.
 6. **Submit Pull Request:** Open a pull request with details about your changes.
 
-if you see any messages like,
+if you are working locally(obviously after [cloning](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#cloning-your-forked-repository) your forked repository),
+
+it is always recommanded to use **git pull** command before making any change in the repository. If you get **Already up to date.** then your repository already synced with the original repository. Else it will be synced.
+
+When use **git push**, if you see any messages like,
 <p>Your branch and 'origin/master' have diverged</p>
-do not panic, it means your repository is not sync with the original repository.
-The simplest solution is,
+it means your repository is not synced with the original repository but you made a change.
+Do not panic,The simplest solution is,
 
 - Copy your folder/file(your update) in a safe location and  [delete](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository) the repository.
   
 - Then follow the above [submitting contribution](#submitting-contributions) section again.
 
-Thank you for contributing to Code Park! Your efforts help create a valuable resource for developers around the world.
+If you encounter difficulties contributing via GitHub, Please search the internet and read some documentations. There is no alternative method for contribution outside of GitHub
 
-Happy coding! 🚀
+<h3>Thank you for contributing to Code Park! Your efforts help create a valuable resource for developers around the world.</h3>
+
+**Happy coding! 🚀**
