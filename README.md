@@ -20,6 +20,18 @@ Contributions are highly encouraged! If you'd like to add a new algorithm or dat
 
 <!-- following two sections will be removed in future, if have many contributors.-->
 ## Who already Contributed 🦸
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/mursalatul>
+            <img src=https://avatars.githubusercontent.com/u/79168756?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Md. Mursalatul Islam Pallob/>
+            <br />
+            <sub style="font-size:14px"><b>Md. Mursalatul Islam Pallob</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
 <!-- readme: contributors -start -->
 <table>
 <tr>
