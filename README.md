@@ -21,9 +21,21 @@ Contributions are highly encouraged! If you'd like to add a new algorithm or dat
 <!-- following two sections will be removed in future, if have many contributors.-->
 ## Who already Contributed 🦸
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/mursalatul">
+            <img src="https://avatars.githubusercontent.com/u/79168756?v=4" width="100;" alt="mursalatul"/>
+            <br />
+            <sub><b>Md. Mursalatul Islam Pallob</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
 <p>and some helping bots are 🤖</p>
 <!-- readme: bots -start -->
+<table>
+</table>
 <!-- readme: bots -end -->
 
 ## License ⚖️
