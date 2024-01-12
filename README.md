@@ -28,6 +28,13 @@ Contributions are highly encouraged! If you'd like to add a new algorithm or dat
             <br />
             <sub><b>Md. Mursalatul Islam Pallob</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/asifelahii">
+            <img src="https://avatars.githubusercontent.com/u/149480370?v=4" width="100;" alt="asifelahii"/>
+            <br />
+            <sub><b>ASIF ELAHI</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
