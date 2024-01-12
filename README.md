@@ -35,6 +35,13 @@ Contributions are highly encouraged! If you'd like to add a new algorithm or dat
             <br />
             <sub><b>ASIF ELAHI</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Fatema-Khanom">
+            <img src="https://avatars.githubusercontent.com/u/124078285?v=4" width="100;" alt="Fatema-Khanom"/>
+            <br />
+            <sub><b>Fatema Khanom</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
