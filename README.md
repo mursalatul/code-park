@@ -1,9 +1,6 @@
 # Code Park 🏞
-
-Welcome to Code Park! 🌳 This repository is a collection of various Data Structures and Algorithms (DSA) implementations, along with other fundamental code snippets. Whether you're a beginner learning programmer or an experienced developer looking for reference implementations, Code Park is here to help you explore and understand different concepts.
-
-## Introduction
-Code Park is an open-source project dedicated to providing clear and concise implementations of essential algorithms, data structures, and fundamental code snippets. The goal is to create a resource that is accessible to developers of all levels and serves as a learning hub for anyone interested in sharpening their programming skills.
+ 
+Code Park 🌳 is an open-source project dedicated to providing clear and concise implementations of essential algorithms, data structures, and fundamental code snippets. The goal is to create a resource that is accessible to developers of all levels and serves as a learning hub for anyone interested in sharpening their programming skills.
 
 Feel free to explore the repository and use the code for educational purposes, personal projects, or as a reference. If you have any suggestions, improvements, or want to contribute, see the [Contributing](#contributing) section.
 
