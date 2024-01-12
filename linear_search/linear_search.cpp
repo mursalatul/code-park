@@ -2,13 +2,17 @@
 #include <iostream>
 using namespace std;
 
-// Function to perform linear search
-// Parameters:
-//   - long long arr[]: an array to search in
-//   - long long n: size of the array
-//   - long long x: key to search for
-// Returns:
-//   - long long: index of the key if found, -1 otherwise
+/*
+Function to perform linear search
+
+Parameters:
+  - long long arr[]: an array to search in
+  - long long n: size of the array
+  - long long x: key to search for
+  
+Returns:
+  - long long: index of the key if found, -1 otherwise
+*/
 long long linearSearch(long long arr[], long long n, long long x){
     for(long long i=0; i<n; ++i){
         if(arr[i] == x){
