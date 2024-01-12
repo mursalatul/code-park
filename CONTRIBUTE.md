@@ -19,7 +19,7 @@ Become part of our Code Park family by contributing. Your support not only adds 
 
 4. **Restrictions:**
 - Do not modify or remove any folder or file in this reposity starting with (.) or all the letters are in uppercase. These are called admin files. Place an proper issue in github if you wanna suggest any modification here.
-- Current we are only accepting codes in [c, c++], which is best for raw code and DSA.
+- Currently we are only accepting codes in [c, c++], which is best for raw code and DSA.
    
 5. **Before Submission:**
 - Make sure you removed all the unnecessary folders/files.
@@ -60,11 +60,38 @@ If you want to contribute code on a specific topic and there is already an exist
 ## Coding Style
 We believe that a coder is an artist, and we cannot teach an artist how to be creative. Therefore, feel free to write code as you wish. However, to reduce bugs and improve performance, please follow the rules below:
 
-- Place your code or solution in a separate class or function. Avoid implementing it directly within the main function. Instead, utilize the main function for testing purposes.
+- Place your code or solution in a separated class or function. Avoid implementing it directly within the main function. Instead, utilize the main function for testing purposes.
 
 - Refrain from using **typedef** or **define** macros to create shortcuts. Users may sometimes only copy the function without copying the macro definition, leading to potential bugs or build failures.
 
 - Use large data types like **long long** or **double** instead of **int** or **float** to avoid unexpected bug for large argument.
+
+- Use [snake_case](https://en.wikipedia.org/wiki/Snake_case) naming convention.
+
+Example Code:
+```
+#include<stdio.h>
+
+/*
+return summation of two number.
+
+@param number1
+@param number2
+
+@return sum of number1 and number2
+*/
+long long sum(long long a, long long b)
+{
+   // returning sum of the numbers
+   return a + b;
+}
+
+int main()
+{
+   int x = 1, y = 2;
+   int sum = sum()
+}
+```
 
 ## Submitting Contributions
 
