@@ -19,7 +19,7 @@ Become part of our Code Park family by contributing. Your support not only adds 
 
 4. **Restrictions:**
 - Do not modify or remove any folder or file in this reposity starting with (.) or all the letters are in uppercase. These are called admin files. Place an proper issue in github if you wanna suggest any modification here.
-- Currently we are only accepting codes in [c, c++], which is best for raw code and DSA.
+- Currently we are only accepting codes in [c, c++, py, java], which is best for raw code and DSA.
    
 5. **Before Submission:**
 - Make sure you removed all the unnecessary folders/files.

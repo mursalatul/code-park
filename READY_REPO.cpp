@@ -97,7 +97,7 @@ bool: true if file is a correct source code file, else false
 bool is_source_code_file(std::string file_name)
 {
     // check if the file is a valid file
-    std::string language_extension[] = {".c", ".cpp"};
+    std::string language_extension[] = {".c", ".cpp", ".py", ".java"};
     for (std::string extension : language_extension)
     {
         size_t extension_index = file_name.find(extension);
