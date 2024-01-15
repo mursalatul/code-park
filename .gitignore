@@ -6,3 +6,5 @@
 *.cph/
 *.vscode/
 
+# environment
+venv/
