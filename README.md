@@ -42,6 +42,13 @@ Contributions are highly encouraged! If you'd like to add a new algorithm or dat
             <br />
             <sub><b>Fatema Khanom</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/rajiyasultana">
+            <img src="https://avatars.githubusercontent.com/u/143528671?v=4" width="100;" alt="rajiyasultana"/>
+            <br />
+            <sub><b>Rajiya Sultana</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
