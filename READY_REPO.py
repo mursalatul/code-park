@@ -7,8 +7,17 @@ class CreateDocumentation:
 This documentation provides a front view of the content presented in the repository. Here, you can see the folders and the files with a tree-view structure.\n\n")
 
             doc.write("## Content\n")
+
+            # sorting the folders before adding to doc
+            folder_file = dict(sorted(folder_file.items()))
+
+            # getting folder name and file list
             for folder, file in folder_file.items():
+                # writing folder name to doc
                 doc.write(f"- [{folder}](/{folder})\n")
+                # sorting the files for organized view in doc
+                file.sort()
+                # adding the file names
                 for files in file:
                     doc.write(f"  - [{files}](/{files})\n")
 
@@ -19,13 +28,11 @@ class Files:
                     ":", ";", "'", '"', ",", ".", "?", "/", " "]
     
     # special cases to restrict
-    SPECIAL_FILES_TO_IGNORE = ["LICENSE", "venv"]
+    # this folders will not be considered as regular folder to add in DOCUMENTATION.md
+    SPECIAL_FILES_TO_IGNORE = ["LICENSE", "venv", "virtual_env", "env", "environment"]
     
     # this languages only will be accespted to commit
     LENGUAGE_EXTENTION = [".cpp", ".c", ".py", ".java"]
-
-    def __init__(self) -> None:
-        pass
 
     def get_all_valid_folder_files_dict(self):
         # store all the data
@@ -63,12 +70,16 @@ class Files:
                                 file_names.append(file)
                             else:
                                 # if wrong file found
-                                return {"ERROR": file_status}
+                                return {"ERROR": file_status,
+                                        "target" : "file",
+                                        "name" : file}
 
                     all_files[folder_name] = file_names
                 else:
                     # if wrong formatted folder found
-                    return {"ERROR" : folder_status}
+                    return {"ERROR" : folder_status,
+                            "target" : "folder",
+                            "name" : folder_name}
         return (all_files)
 
     def isgoodname(self, name: str) -> dict:
@@ -119,13 +130,41 @@ class Files:
 
 
 def main():
+    # welcome message
+    print("Preparing the repository for commit.".center(50, "*"))
+    print("\nFolder/File naming format checking . . . . . . . .")
     ff = Files()
     data = (ff.get_all_valid_folder_files_dict())
     if "ERROR" in data:
-        pass
+        # show relevent error message
+        # if error with the folder name
+        if data["target"] == "folder":
+            # show error message and relavent error(RESTRICTED_CHAR)
+            print(f"Wrong folder naming. \nYou have used \"", data["ERROR"], "\" in your folder name", sep="")
+            # show the folder name with error
+            print("->", data["name"])
+        # if error with file name
+        else:
+            # show error message and relavent error(RESTRICTED_CHAR)
+            print(f"Wrong file naming. \nYou have used \"", data["ERROR"], "\" in your folder name", sep="")
+            # show the file name with error
+            print("->", data["name"])
+        print("\nChecking process ended with error!")
     else:
+        print("Checking process ended. All Folder/File names are seems good!\n")
         doc = CreateDocumentation()
         doc.writedoc(data)
+        print("DOCUMENTATION.md updated successful.\nYou can commit your updates now\n")
+
+        # ending message
+        print("Some key points to remember:")
+        print("* make sure you are running this program just before the commit.\n\
+* do not modify this program. this is build to reduce your effort.\n\
+* if you find any bug/suggestion feel free to submit an issue at\n\
+https://github.com/mursalatul/code-park/issues/new \n\
+* see the CONTRUBUTION.md(https://github.com/mursalatul/code-park/blob/master/CONTRIBUTE.md)\n\
+if you are confused about contributing in this project.\n")
+
 if __name__ == '__main__':
     main()
 

@@ -18,12 +18,12 @@ Become part of our Code Park family by contributing. Your support not only adds 
 3. **Follow Code Etiquette:** Ensure that your code is well-commented for clarity. Follow the coding standards relevant to the language you are using.
 
 4. **Restrictions:**
-- Do not modify or remove any folder or file in this reposity starting with (.) or all the letters are in uppercase. These are called admin files. Place an proper issue in github if you wanna suggest any modification here.
+- Do not modify or remove any folder or file in this reposity starting with (.) or all the letters are in uppercase. These are called admin files. Place an proper [issue](https://github.com/mursalatul/code-park/issues/) in github if you wanna suggest any modification here.
 - Currently we are only accepting codes in [c, c++, py, java], which is best for raw code and DSA.
    
 5. **Before Submission:**
 - Make sure you removed all the unnecessary folders/files.
-- run **READY_REPO.cpp** which will update your changes into the DOCUMENTATION.md.
+- run **READY_REPO.py** which will update your changes into the DOCUMENTATION.md.
 
 6. **Reasons for Direct Pull Request Rejection:**
 - Modify any admin folder/file (starts with **.** or all uppercase).
@@ -31,6 +31,8 @@ Become part of our Code Park family by contributing. Your support not only adds 
 - Did not follow [code placement](#code-placement).
 - Irrelevant commit message.
 
+7. **Python dev**
+- If you are using any virtual environment, make sure its name is one of ["venv", "virtual_env", "environment"]
   
 ## Structure
 
