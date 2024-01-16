@@ -1,7 +1,16 @@
 import os
 
 class CreateDocumentation:
-    pass
+    def writedoc(self, folder_file: dict):
+        with open("DOCUMENTATION.md", "w") as doc:
+            doc.write("# Code Park Documentation\n\
+This documentation provides a front view of the content presented in the repository. Here, you can see the folders and the files with a tree-view structure.\n\n")
+
+            doc.write("## Content\n")
+            for folder, file in folder_file.items():
+                doc.write(f"- [{folder}](/{folder})\n")
+                for files in file:
+                    doc.write(f"  - [{files}](/{files})\n")
 
 class Files:
     # this char will not accepted inside a class
@@ -111,9 +120,12 @@ class Files:
 
 def main():
     ff = Files()
-    print(ff.get_all_valid_folder_files_dict())
-
+    data = (ff.get_all_valid_folder_files_dict())
+    if "ERROR" in data:
+        pass
+    else:
+        doc = CreateDocumentation()
+        doc.writedoc(data)
 if __name__ == '__main__':
     main()
-
 
