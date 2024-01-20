@@ -26,10 +26,17 @@ jobs:
     - name: Run UPDATE_DOC.py
       run: python UPDATE_DOC.py
 
-    - name: Commit changes
+    - name: Check if DOCUMENTATION.md is changed
+      id: check_changes
+      run: |
+        git diff --exit-code --quiet || echo "DOCUMENTATION.md has changes"
+
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.result == 'DOCUMENTATION.md has changes'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add DOCUMENTATION.md
-        git commit -m "Update documentation"
+        git commit -m "Update documentation [skip ci]"  # skip ci to avoid triggering a new workflow run
         git push
+        
