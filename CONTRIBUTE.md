@@ -23,7 +23,7 @@ Become part of our Code Park family by contributing. Your support not only adds 
    
 5. **Before Submission:**
 - Make sure you removed all the unnecessary folders/files.
-- run **READY_REPO.py** which will update your changes into the DOCUMENTATION.md.
+- run **READY_REPO.py** which will check the status of your updates.
 
 6. **Reasons for Direct Pull Request Rejection:**
 - Modify any admin folder/file (starts with **.** or all uppercase).
@@ -110,7 +110,16 @@ if you are working locally(obviously after [cloning](https://docs.github.com/en/
 
 it is always recommanded to use **git pull** command before making any change in the repository. If you get **Already up to date.** then your repository already synced with the original repository. Else it will be synced.
 
-When use **git push**, if you see any messages like,
+If you are using vs code, make sure you installed [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) for better support.
+
+![image](https://github.com/mursalatul/code-park/assets/79168756/0422214a-f2e9-4959-a12b-0bfb8acde8cb)
+
+and before start doing your work, press the button at the left buttom,
+
+![image](https://github.com/mursalatul/code-park/assets/79168756/ed4533f9-68a1-4164-bb4e-78420a77bb59)
+
+If you are using tarminal/cmd/powershell, use **git push**,
+If you see any messages like,
 <p>Your branch and 'origin/master' have diverged</p>
 it means your repository is not synced with the original repository but you made a change.
 Do not panic,The simplest solution is,
