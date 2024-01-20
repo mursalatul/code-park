@@ -151,14 +151,12 @@ def main():
             print("->", data["name"])
         print("\nChecking process ended with error!")
     else:
-        print("Checking process ended. All Folder/File names are seems good!\n")
-        doc = CreateDocumentation()
-        doc.writedoc(data)
-        print("DOCUMENTATION.md updated successful.\nYou can commit your updates now\n")
-
+        print("Checking process ended. All Folder/File names are seems good!\nYou are ready to commit and push/pull request")
+        
         # ending message
         print("Some key points to remember:")
         print("* make sure you are running this program just before the commit.\n\
+* DOCUMENTATION.md will be auto updated after your pull request accepted.\n\
 * do not modify this program. this is build to reduce your effort.\n\
 * if you find any bug/suggestion feel free to submit an issue at\n\
 https://github.com/mursalatul/code-park/issues/new \n\
