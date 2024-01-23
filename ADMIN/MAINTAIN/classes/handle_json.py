@@ -28,4 +28,4 @@ class HandleJson:
         self.data = data
         self.add_link()
         with open("DOC_DATA.json", "w") as outfile: 
-            json.dump(self.dic, outfile)
+            json.dump(self.dic, outfile, indent=4)
