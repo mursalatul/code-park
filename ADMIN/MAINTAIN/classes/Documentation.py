@@ -15,9 +15,9 @@ This documentation provides a front view of the content presented in the reposit
             # getting folder name and file list
             for folder, file in folder_file.items():
                 # writing folder name to doc
-                doc.write(f"- [{folder}](/{folder})\n")
+                doc.write(f"- [{folder}](https://github.com/mursalatul/code-park/tree/master/{folder})\n")
                 # sorting the files for organized view in doc
                 #file.sort()
                 # adding the file names
                 for files in file:
-                    doc.write(f"  - [{files}]({folder}/{files})\n")
+                    doc.write(f"  - [{files}](https://github.com/mursalatul/code-park/tree/master/{folder}/{files})\n")
