@@ -2,6 +2,7 @@ import os
 
 class CreateDocumentation:
     def writedoc(self, folder_file: dict):
+        
         cwd = os.getcwd()
         # go two folder up to get repository folders
         cwd = os.path.abspath(os.path.join(cwd, "..", ".."))
