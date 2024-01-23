@@ -36,7 +36,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add DOCUMENTATION.md
+        git add .
         git commit -m "Update documentation [skip ci]"  # skip ci to avoid triggering a new workflow run
         git push
         

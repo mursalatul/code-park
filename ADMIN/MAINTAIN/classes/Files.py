@@ -14,7 +14,7 @@ class Files:
     # this languages only will be accespted to commit
     LENGUAGE_EXTENTION = [".cpp", ".c", ".py", ".java"]
 
-    def get_all_valid_folder_files_dict(self):
+    def get_all_valid_folder_files_dict(self, data_location):
         # store all the data
         """
         structure:
@@ -26,9 +26,7 @@ class Files:
             .
         """
         all_files = {}
-        cwd = os.getcwd()
-        # go two folder up to get repository folders
-        cwd = os.path.abspath(os.path.join(cwd, "..", ".."))
+        cwd = data_location
 
         for folder_name in os.listdir(cwd):
             # works only for directory

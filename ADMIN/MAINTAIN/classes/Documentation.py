@@ -1,12 +1,8 @@
 import os
 
 class CreateDocumentation:
-    def writedoc(self, folder_file: dict):
-        
-        cwd = os.getcwd()
-        # go two folder up to get repository folders
-        cwd = os.path.abspath(os.path.join(cwd, "..", ".."))
-        documentation_path = os.path.join(cwd, "DOCUMENTATION.md")
+    def writedoc(self, folder_file: dict, repository_location):
+        documentation_path = os.path.join(repository_location, "CONTENT/DOCUMENTATION.md")
 
         with open(documentation_path, "w") as doc:
             doc.write("# Code Park Documentation\n\
