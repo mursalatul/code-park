@@ -1,10 +1,9 @@
 import os
 
 class CreateDocumentation:
-    def writedoc(self, folder_file: dict, repository_location):
-        documentation_path = os.path.join(repository_location, "CONTENT/DOCUMENTATION.md")
-
-        with open(documentation_path, "w") as doc:
+    def writedoc(self, folder_file: dict):
+        
+        with open("DOCUMENTATION.md", "w") as doc:
             doc.write("# Code Park Documentation\n\
 This documentation provides a front view of the content presented in the repository. Here, you can see the folders and the files with a tree-view structure.\n\n")
 

@@ -26,10 +26,10 @@ jobs:
     - name: Run ADMIN/MAINTAIN/UPDATE_DOC.py
       run: python ADMIN/MAINTAIN/UPDATE_DOC.py
 
-    - name: Check if CONTENT/DOCUMENTATION.md is changed
+    - name: Check if DOCUMENTATION.md is changed
       id: check_changes
       run: |
-        git diff --exit-code --quiet || echo "CONTENT/DOCUMENTATION.md has changes"
+        git diff --exit-code --quiet || echo "DOCUMENTATION.md has changes"
 
     - name: Commit and push changes
       if: steps.check_changes.outputs.result == 'DOCUMENTATION.md has changes'

@@ -8,16 +8,16 @@ from classes.handle_json import HandleJson
 def main():
     # getting repository location
     cwd = os.getcwd()
-    cwd = os.path.abspath(os.path.join(cwd, "..", ".."))
+    cwd = os.path.abspath(os.path.join(cwd, "..", "..")) # change cwd to repo home
 
     # getting file data
     ff = Files()
     data = (ff.get_all_valid_folder_files_dict(cwd))
-    print(data)
+    # print(data)
 
     # writing to Documentation.md
     doc = CreateDocumentation()
-    doc.writedoc(data, cwd)
+    doc.writedoc(data) # documentation will be written in the repo home
 
 if __name__ == '__main__':
     main()
