@@ -13,7 +13,7 @@ def main():
     # getting file data
     ff = Files()
     data = (ff.get_all_valid_folder_files_dict(cwd))
-    # print(data)
+    print(data)
 
     # writing to Documentation.md
     doc = CreateDocumentation()

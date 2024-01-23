@@ -6,6 +6,8 @@ This documentation provides a front view of the content presented in the reposit
   - [hello_diu.c](https://github.com/mursalatul/code-park/tree/master/hello_diu/hello_diu.c)
 - [palindrom](https://github.com/mursalatul/code-park/tree/master/palindrom)
   - [is_palindrom_number.c](https://github.com/mursalatul/code-park/tree/master/palindrom/is_palindrom_number.c)
+- [prefix_sum](https://github.com/mursalatul/code-park/tree/master/prefix_sum)
+  - [prefix_sum.cpp](https://github.com/mursalatul/code-park/tree/master/prefix_sum/prefix_sum.cpp)
 - [prime](https://github.com/mursalatul/code-park/tree/master/prime)
   - [is_prime.cpp](https://github.com/mursalatul/code-park/tree/master/prime/is_prime.cpp)
 - [search](https://github.com/mursalatul/code-park/tree/master/search)
