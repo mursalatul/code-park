@@ -2,28 +2,23 @@
     "folder_number": "5",
     "hello_diu": {
         "folder_url": "https://github.com/mursalatul/code-park/tree/master/hello_diu",
-        "file_number": "1",
         "hello_diu.c": "https://github.com/mursalatul/code-park/tree/master/hello_diu/hello_diu.c"
     },
     "palindrom": {
         "folder_url": "https://github.com/mursalatul/code-park/tree/master/palindrom",
-        "file_number": "1",
         "is_palindrom_number.c": "https://github.com/mursalatul/code-park/tree/master/palindrom/is_palindrom_number.c"
     },
     "prime": {
         "folder_url": "https://github.com/mursalatul/code-park/tree/master/prime",
-        "file_number": "1",
         "is_prime.cpp": "https://github.com/mursalatul/code-park/tree/master/prime/is_prime.cpp"
     },
     "search": {
         "folder_url": "https://github.com/mursalatul/code-park/tree/master/search",
-        "file_number": "2",
         "binary_search.cpp": "https://github.com/mursalatul/code-park/tree/master/search/binary_search.cpp",
         "linear_search.cpp": "https://github.com/mursalatul/code-park/tree/master/search/linear_search.cpp"
     },
     "selection_sort": {
         "folder_url": "https://github.com/mursalatul/code-park/tree/master/selection_sort",
-        "file_number": "1",
         "selection_sort_cpp.cpp": "https://github.com/mursalatul/code-park/tree/master/selection_sort/selection_sort_cpp.cpp"
     }
 }

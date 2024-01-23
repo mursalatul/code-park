@@ -16,7 +16,7 @@ class HandleJson:
         for folder, file in self.data.items():
             inner_dic = dict()
             inner_dic["folder_url"] = "https://github.com/mursalatul/code-park/tree/master/" + folder
-            inner_dic["file_number"] = f"{len(file)}"
+            #inner_dic["file_number"] = f"{len(file)}"
             # sort is working locally but is not working in github action. will fix it later
             # file.sort()
             for f in file:
