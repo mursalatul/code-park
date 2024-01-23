@@ -20,4 +20,4 @@ This documentation provides a front view of the content presented in the reposit
                 #file.sort()
                 # adding the file names
                 for files in file:
-                    doc.write(f"  - [{files}](/{files})\n")
+                    doc.write(f"  - [{files}]({folder}/{files})\n")

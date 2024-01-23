@@ -19,5 +19,9 @@ def main():
     doc = CreateDocumentation()
     doc.writedoc(data) # documentation will be written in the repo home
 
+    # updating the json file
+    mjson = HandleJson()
+    mjson.write_json(data)
+    
 if __name__ == '__main__':
     main()
