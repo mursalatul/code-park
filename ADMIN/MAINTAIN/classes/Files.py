@@ -1,25 +1,4 @@
-import os
-
-class CreateDocumentation:
-    def writedoc(self, folder_file: dict):
-        with open("DOCUMENTATION.md", "w") as doc:
-            doc.write("# Code Park Documentation\n\
-This documentation provides a front view of the content presented in the repository. Here, you can see the folders and the files with a tree-view structure.\n\n")
-
-            doc.write("## Content\n")
-
-            # sorting the folders before adding to doc
-            folder_file = dict(sorted(folder_file.items()))
-
-            # getting folder name and file list
-            for folder, file in folder_file.items():
-                # writing folder name to doc
-                doc.write(f"- [{folder}](/{folder})\n")
-                # sorting the files for organized view in doc
-                file.sort()
-                # adding the file names
-                for files in file:
-                    doc.write(f"  - [{files}](/{files})\n")
+import os, json
 
 class Files:
     # this char will not accepted inside a class
@@ -29,7 +8,8 @@ class Files:
     
     # special cases to restrict
     # this folders will not be considered as regular folder to add in DOCUMENTATION.md
-    SPECIAL_FILES_TO_IGNORE = ["LICENSE", "venv", "virtual_env", "env", "environment"]
+    SPECIAL_FILES_TO_IGNORE = ["LICENSE", "venv", "virtual_env", "env",
+                            "environment", "ADMIN", "CONTENT"]
     
     # this languages only will be accespted to commit
     LENGUAGE_EXTENTION = [".cpp", ".c", ".py", ".java"]
@@ -47,6 +27,9 @@ class Files:
         """
         all_files = {}
         cwd = os.getcwd()
+        # go two folder up to get repository folders
+        cwd = os.path.abspath(os.path.join(cwd, "..", ".."))
+
         for folder_name in os.listdir(cwd):
             # works only for directory
             if os.path.isdir(os.path.join(cwd, folder_name)):
@@ -95,13 +78,18 @@ class Files:
         "status" : "restricted character" if restricted character found
         """
         for character_in_name in list(name): # converting str -> to iterater
-            if character_in_name in self.RESTRICTED_CHAR:
+            if character_in_name in self.RESTRICTED_CHAR or (character_in_name >= 'A' and character_in_name <= "Z"):
                 status =  {"status" : ""}
-                # finding the restricted character and adding it in dict
-                for c in self.RESTRICTED_CHAR:
-                    if character_in_name == c:
-                        status["status"] = c
-                        return status
+                # check if any upper case letter is used.
+                if (character_in_name >= "A" and character_in_name <= "Z"):
+                    status["status"] = f"upper case letter '{character_in_name}' used."
+                else:
+                    # finding the restricted character and adding it in dict
+                    for c in self.RESTRICTED_CHAR:
+                        if character_in_name == c:
+                            status["status"] = c
+                            break
+                return status
         return {"status": "1"}
     
     def good_file_format(self, file_name: str) -> dict:
@@ -128,11 +116,3 @@ class Files:
         else:
             return self.isgoodname(folder_name)
         
-def main():
-    ff = Files()
-    data = (ff.get_all_valid_folder_files_dict())
-    doc = CreateDocumentation()
-    doc.writedoc(data)
-
-if __name__ == '__main__':
-    main()

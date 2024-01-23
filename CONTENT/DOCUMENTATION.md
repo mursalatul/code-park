@@ -9,7 +9,7 @@ This documentation provides a front view of the content presented in the reposit
 - [prime](/prime)
   - [is_prime.cpp](/is_prime.cpp)
 - [search](/search)
-  - [Binary_Search.cpp](/Binary_Search.cpp)
+  - [binary_search.cpp](/binary_search.cpp)
   - [linear_search.cpp](/linear_search.cpp)
 - [selection_sort](/selection_sort)
   - [selection_sort_cpp.cpp](/selection_sort_cpp.cpp)
