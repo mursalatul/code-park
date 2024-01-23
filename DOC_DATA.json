@@ -12,6 +12,10 @@
         "folder_url": "https://github.com/mursalatul/code-park/tree/master/prefix_sum",
         "prefix_sum.cpp": "https://github.com/mursalatul/code-park/tree/master/prefix_sum/prefix_sum.cpp"
     },
+    "kadanes_algorithm": {
+        "folder_url": "https://github.com/mursalatul/code-park/tree/master/kadanes_algorithm",
+        "maxsum.cpp": "https://github.com/mursalatul/code-park/tree/master/kadanes_algorithm/maxsum.cpp"
+    },
     "palindrom": {
         "folder_url": "https://github.com/mursalatul/code-park/tree/master/palindrom",
         "is_palindrom_number.c": "https://github.com/mursalatul/code-park/tree/master/palindrom/is_palindrom_number.c"

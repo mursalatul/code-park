@@ -4,6 +4,8 @@ This documentation provides a front view of the content presented in the reposit
 ## Content
 - [hello_diu](https://github.com/mursalatul/code-park/tree/master/hello_diu)
   - [hello_diu.c](https://github.com/mursalatul/code-park/tree/master/hello_diu/hello_diu.c)
+- [kadanes_algorithm](https://github.com/mursalatul/code-park/tree/master/kadanes_algorithm)
+  - [maxsum.cpp](https://github.com/mursalatul/code-park/tree/master/kadanes_algorithm/maxsum.cpp)
 - [palindrom](https://github.com/mursalatul/code-park/tree/master/palindrom)
   - [is_palindrom_number.c](https://github.com/mursalatul/code-park/tree/master/palindrom/is_palindrom_number.c)
 - [prefix_sum](https://github.com/mursalatul/code-park/tree/master/prefix_sum)
