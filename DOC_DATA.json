@@ -1,27 +1,27 @@
 {
-    "ERROR": {
-        "folder_url": "https://github.com/mursalatul/code-park/tree/master/ERROR",
-        "-": "https://github.com/mursalatul/code-park/tree/master/ERROR/-"
+    "hello_diu": {
+        "folder_url": "https://github.com/mursalatul/code-park/tree/master/hello_diu",
+        "hello_diu.c": "https://github.com/mursalatul/code-park/tree/master/hello_diu/hello_diu.c"
     },
-    "target": {
-        "folder_url": "https://github.com/mursalatul/code-park/tree/master/target",
-        "f": "https://github.com/mursalatul/code-park/tree/master/target/f",
-        "o": "https://github.com/mursalatul/code-park/tree/master/target/o",
-        "l": "https://github.com/mursalatul/code-park/tree/master/target/l",
-        "d": "https://github.com/mursalatul/code-park/tree/master/target/d",
-        "e": "https://github.com/mursalatul/code-park/tree/master/target/e",
-        "r": "https://github.com/mursalatul/code-park/tree/master/target/r"
+    "palindrom": {
+        "folder_url": "https://github.com/mursalatul/code-park/tree/master/palindrom",
+        "is_palindrom_number.c": "https://github.com/mursalatul/code-park/tree/master/palindrom/is_palindrom_number.c"
     },
-    "name": {
-        "folder_url": "https://github.com/mursalatul/code-park/tree/master/name",
-        "c": "https://github.com/mursalatul/code-park/tree/master/name/c",
-        "o": "https://github.com/mursalatul/code-park/tree/master/name/o",
-        "d": "https://github.com/mursalatul/code-park/tree/master/name/d",
-        "e": "https://github.com/mursalatul/code-park/tree/master/name/e",
-        "-": "https://github.com/mursalatul/code-park/tree/master/name/-",
-        "p": "https://github.com/mursalatul/code-park/tree/master/name/p",
-        "a": "https://github.com/mursalatul/code-park/tree/master/name/a",
-        "r": "https://github.com/mursalatul/code-park/tree/master/name/r",
-        "k": "https://github.com/mursalatul/code-park/tree/master/name/k"
+    "prime": {
+        "folder_url": "https://github.com/mursalatul/code-park/tree/master/prime",
+        "is_prime.cpp": "https://github.com/mursalatul/code-park/tree/master/prime/is_prime.cpp"
+    },
+    "search": {
+        "folder_url": "https://github.com/mursalatul/code-park/tree/master/search",
+        "binary_search.cpp": "https://github.com/mursalatul/code-park/tree/master/search/binary_search.cpp",
+        "linear_search.cpp": "https://github.com/mursalatul/code-park/tree/master/search/linear_search.cpp"
+    },
+    "selection_sort": {
+        "folder_url": "https://github.com/mursalatul/code-park/tree/master/selection_sort",
+        "selection_sort_cpp.cpp": "https://github.com/mursalatul/code-park/tree/master/selection_sort/selection_sort_cpp.cpp"
+    },
+    "prefix_sum": {
+        "folder_url": "https://github.com/mursalatul/code-park/tree/master/prefix_sum",
+        "prefix_sum.cpp": "https://github.com/mursalatul/code-park/tree/master/prefix_sum/prefix_sum.cpp"
     }
 }
