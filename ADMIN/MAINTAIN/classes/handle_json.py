@@ -4,7 +4,7 @@ class HandleJson:
     # reformat data as actual json format
     def add_link(self):
         self.dic = {
-            "folder_number" : f"{len(self.data)}",
+            # "folder_number" : f"{len(self.data)}",
             # "folder1" : {
             #     "folder1_url" : "",
             #     "file_number" : "",
