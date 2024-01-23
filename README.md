@@ -62,6 +62,13 @@ Contributions are highly encouraged! If you'd like to add a new algorithm or dat
             <br />
             <sub><b>github-actions[bot]</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/actions-user">
+            <img src="https://avatars.githubusercontent.com/u/65916846?v=4" width="100;" alt="actions-user"/>
+            <br />
+            <sub><b>actions-user</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: bots -end -->
