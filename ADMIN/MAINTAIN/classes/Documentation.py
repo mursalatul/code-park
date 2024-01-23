@@ -5,7 +5,7 @@ class CreateDocumentation:
         cwd = os.getcwd()
         # go two folder up to get repository folders
         cwd = os.path.abspath(os.path.join(cwd, "..", ".."))
-        documentation_path = os.path.join(cwd, "CONTENT/DOCUMENTATION.md")
+        documentation_path = os.path.join(cwd, "DOCUMENTATION.md")
 
         with open(documentation_path, "w") as doc:
             doc.write("# Code Park Documentation\n\
