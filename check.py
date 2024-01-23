@@ -1,6 +1,6 @@
 import os
 
-from ADMIN.MAINTAIN.classes.Files import Files
+from UPDATE_DOC import Files
 
 
 def main():

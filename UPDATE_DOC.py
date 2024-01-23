@@ -64,7 +64,7 @@ class Files:
     # special cases to restrict
     # this folders will not be considered as regular folder to add in DOCUMENTATION.md
     SPECIAL_FILES_TO_IGNORE = ["LICENSE", "venv", "virtual_env", "env",
-                            "environment", "ADMIN", "CONTENT"]
+                            "environment", "ADMIN", "CONTENT", "__pycache__"]
     
     # this languages only will be accespted to commit
     LENGUAGE_EXTENTION = [".cpp", ".c", ".py", ".java"]
@@ -178,7 +178,7 @@ def main():
     # getting file data
     ff = Files()
     data = (ff.get_all_valid_folder_files_dict(cwd))
-    print(data)
+    # print(data)
 
     # writing to Documentation.md
     doc = CreateDocumentation()
