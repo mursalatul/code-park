@@ -17,7 +17,7 @@ This documentation provides a front view of the content presented in the reposit
                 # writing folder name to doc
                 doc.write(f"- [{folder}](/{folder})\n")
                 # sorting the files for organized view in doc
-                file.sort()
+                #file.sort()
                 # adding the file names
                 for files in file:
                     doc.write(f"  - [{files}](/{files})\n")
